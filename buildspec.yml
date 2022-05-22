@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - python --version
+  build:
+    commands:
+      - echo "run test"
+  post_build:
+    commands:
+      - echo "done"
