@@ -18,3 +18,4 @@ phases:
 artifacts:
   files:
     - dist/learn_aws_code_artifact-*
+  name: learn_aws_code_artifact
