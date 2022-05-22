@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - python --version
+      - env
   build:
     commands:
       - echo "run test"
@@ -18,4 +19,4 @@ phases:
 artifacts:
   files:
     - dist/learn_aws_code_artifact-*
-  name: learn_aws_code_artifact
+  name: learn_aws_code_artifact.zip
