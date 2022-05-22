@@ -7,6 +7,8 @@ phases:
   build:
     commands:
       - echo "run test"
+      - echo "build python distribution"
+      - python setup.py sdist bdist_wheel --universal
   post_build:
     commands:
       - echo "done"
