@@ -14,3 +14,7 @@ phases:
   post_build:
     commands:
       - echo "done"
+
+artifacts:
+  files:
+    - dist/learn_aws_code_artifact-*
